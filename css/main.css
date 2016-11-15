@@ -17,9 +17,15 @@ html {
   box-sizing: inherit;
 }
 
-⋮@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
-  img {
+}
+
+@media only screen and (min-width: 25em) {
+
+  img, img:first-child {
+    float: left;
+    width:50%;
   }
 
 }
@@ -27,7 +33,7 @@ html {
 @media only screen and (min-width: 38em) {
 
   img {
-    width: 33%;
+    width: 32%;
   }
 
   img:first-child {
