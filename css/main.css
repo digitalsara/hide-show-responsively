@@ -19,6 +19,14 @@ html {
 
 @media only screen and (min-width: 20em) {
 
+  img {
+    width: 100%;
+  }
+
+  img:nth-child(even) {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -26,6 +34,10 @@ html {
   img, img:first-child {
     float: left;
     width:50%;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
   }
 
 }
